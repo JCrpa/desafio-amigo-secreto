@@ -70,3 +70,13 @@ document.getElementById("amigo").addEventListener("click", function() {
     }
 });
 }
+//criar uma função para reiniciar o sorteio e limpar a lista de amigos
+function reiniciarSorteio() {
+  const listaAmigosElement = document.getElementById("listaAmigos");
+  listaAmigosElement.innerHTML = "";
+  //limpar a lista de amigos
+  amigos = [];
+  //limpar o resultado do sorteio
+  const resultadoElement = document.getElementById("resultado");
+  resultadoElement.innerHTML = ""; // Limpa o resultado do sorteio
+}
