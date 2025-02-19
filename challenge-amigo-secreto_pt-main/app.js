@@ -52,3 +52,21 @@ for (let i = amigos.length - 1; i > 0; i--) {
   const j = Math.floor(Math.random() * (i + 1));
   [amigos[i], amigos[j]] = [amigos[j], amigos[i]];
 }
+// verificar se a pessoa sorteada é ela mesma
+let amigoSorteado;
+do {
+    amigoSorteado = amigos.shift(); // Remove o primeiro amigo da lista
+} while (amigos.includes(amigoSorteado)); // Repete até que o amigo sorteado seja diferente do primeiro da lista
+amigos.push(amigoSorteado); // Adiciona o amigo removido de volta à lista (para evitar repetição)
+//exibir o nome do amigo sorteado na tela com a frase
+const resultadoElement = document.getElementById("resultado");
+resultadoElement.textContent = "O amigo secreto sorteado é: " + amigos[0]; // O primeiro amigo da lista embaralhada é o amigo secreto do último amigo
+sorteioRealizado = true; // Define a variável sorteioRealizado como verdadeira
+// Adiciona evento de clique ao campo de nome
+document.getElementById("amigo").addEventListener("click", function() {
+    if (sorteioRealizado) { // Verifica se o sorteio já foi realizado
+        reiniciarSorteio();
+        sorteioRealizado = false; // Reinicia a variável
+    }
+});
+}
