@@ -47,3 +47,8 @@ if (sorteioRealizado) {
     alert("O sorteio já foi realizado. Clique no campo 'Digite um nome' para reiniciar.");
     return;
 }
+//embaralhar a lista de amigos
+for (let i = amigos.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [amigos[i], amigos[j]] = [amigos[j], amigos[i]];
+}
