@@ -37,3 +37,13 @@ function sortearAmigo() {
   }
   //criar uma variável para verificar se o sorteio já foi realizado
   let sorteioRealizado = false;
+  //criar uma função para exibir o resultado do sorteio
+  function exibirResultado(resultadoSorteio) {
+    const resultadoElement = document.getElementById("resultado");
+    resultadoElement.textContent = resultadoSorteio;
+}
+// Verifica se o sorteio já foi realizado
+if (sorteioRealizado) {
+    alert("O sorteio já foi realizado. Clique no campo 'Digite um nome' para reiniciar.");
+    return;
+}
