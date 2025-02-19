@@ -28,3 +28,12 @@ function atualizarlistaAmigos(amigos) {
       listaAmigosElement.appendChild(novoItemLista);
   }
 }
+//criar uma função para sortear o amigo secreto
+function sortearAmigo() {
+  //verificar se a lista de amigos está vazia
+  if (amigos.length < 2) {
+      alert("Para realizar o sorteio, adicione pelo menos dois amigos.");
+      return; // Impede que o código continue se houver menos de dois amigos
+  }
+  //criar uma variável para verificar se o sorteio já foi realizado
+  let sorteioRealizado = false;
