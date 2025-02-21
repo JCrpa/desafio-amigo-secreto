@@ -1,4 +1,4 @@
-# Projeto: Challenge Oraclo Next Education - One - Turma 8
+# Projeto: Challenge Oracle Next Education - One - Turma 8
 
   Desafio do Amigo Secreto
 
@@ -30,44 +30,39 @@
   
 ## Como usar
 
-1. [Instruções passo a passo de como configurar e executar o projeto]
-2. Exemplo: Abrir o arquivo .pbix no Power BI Desktop
-3. Exemplo: Conectar-se à base de dados
-4. Exemplo: Executar os scripts em linguagem M
+1. Digite um nome
+2. Clique no botão adicionar e veja na tela o nome adicionado
+3. Para que seja possível realizar o sorteio do amigo secreto, insira pelo menos 2 nomes
+4. Após ter inserido pelo menos 2 nomes, clique no botão sortear amnigo
+5. Visualize o resultado do sorteio. O sistema não permite que o sorteio do amigo secreto seja seu próprio nome
 
 ## Exemplos
 
-- [Mostrar exemplos de uso do projeto, como trechos de código ou capturas de tela]
-- Exemplo: Código M para calcular o total de vendas por produto
-- Exemplo: Visualização de um relatório gerado pelo projeto
+- Lista de nomes adicionados: João, Fabiana, Manoela e Rafael
+- João sorteou Rafael, Fabiana sorteou Manoela, Manoela sorteou João e Rafael sorteou Fabiana
 
 ## Documentação
 
-- [Link para a documentação completa do projeto, se houver]
-- Exemplo: Wiki do GitHub
-- Exemplo: Artigo no Medium
+- Disponível nesta página do GitHub
 
 ## Contribuição
 
-- [Incentivar a contribuição de outros desenvolvedores]
-- [Explicar como as pessoas podem contribuir para o projeto]
+- Aulas do programa de formação Oracle ONE - Oracle Nexte Education
 
 ## Licença
 
-- [Informar a licença sob a qual o projeto está distribuído]
-- Exemplo: MIT License
+- Código aberto
 
 ## Contato
 
-- [Informações de contato do(s) autor(es) do projeto]
-- Exemplo: Nome completo
-- Exemplo: Endereço de e-mail
-- Exemplo: Perfil do LinkedIn
+- Nome completo: João Costa Ozório de Oliveira
+- Endereço de e-mail: joaocosta.info@gmail.com
+- Perfil do LinkedIn: www.linkedin.com/in/joaocosta1976
 
 ## Agradecimentos
 
-- [Agradecer a pessoas ou organizações que ajudaram no projeto]
+- Agradecimentos a Oracle e Allura por esta oportunidade incrível que estou participando e também a minha família pela paciência.
 
 ## Outros
 
-- [Adicionar outras informações relevantes sobre o projeto]
+- Em construção...
