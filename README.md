@@ -33,7 +33,7 @@
 1. Digite um nome
 2. Clique no botão adicionar e veja na tela o nome adicionado
 3. Para que seja possível realizar o sorteio do amigo secreto, insira pelo menos 2 nomes
-4. Após ter inserido pelo menos 2 nomes, clique no botão sortear amnigo
+4. Após ter inserido pelo menos 2 nomes, clique no botão sortear amigo
 5. Visualize o resultado do sorteio. O sistema não permite que o sorteio do amigo secreto seja seu próprio nome
 
 ## Exemplos
